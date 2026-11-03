@@ -4,8 +4,8 @@ require_relative '../src/script'
 class ScriptTest < Test::Unit::TestCase
 
   def setup
-#     url = ENV['URL'].nil? ? '' : ENV["URL"]
-#     token = ENV['TOKEN'].nil? ? '' : ENV["TOKEN"]
+    url = ENV['URL'].nil? ? '' : ENV["URL"]
+    token = ENV['TOKEN'].nil? ? '' : ENV["TOKEN"]
     @secrets_token = ENV['SECRETS_TOKEN']
     @obj = GithubApi.new(url, token)
   end

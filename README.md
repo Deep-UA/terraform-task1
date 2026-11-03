@@ -30,3 +30,4 @@ Write Terraform code that configures the GitHub repository according to the foll
 7. For GitHub actions, perform the following: 
 - create PAT (Personal Access Token) with **Full control of private repositories** and **Full control of orgs and teams, read and write org projects**
 - add the PAT to the repository actions secrets key with the name `PAT` and the value of the created PAT.
+ 
